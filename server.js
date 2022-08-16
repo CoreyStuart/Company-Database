@@ -224,12 +224,12 @@ function wordsOfWisdom() {
     inquirer.prompt([
         {
             type: 'list',
-            name: 'chiefKeef',
-            message: '******* in school telling me, always in the barber shop Chief Keef aint bout this, Chief aint bout that My boy a BD on ******* Lamron and them He, he, they say that ***** dont be putting in no work Shut the **** up, yall ****** aint know **** All yall ************* talkin about Chief Keef aint no hitter, Chief Keef aint this, Chief Keef a fake Shut the **** up, yall dont live with that ***** Yall know that ***** got caught with a ratchet Shootin at the police and **** ***** been on probation since ***** I dont know when ************, stop ***** playin him like that Them ****** savages out there If I catch another ************ talking sweet about Chief Keef Im fucking beatin they ***, Im not ******* playin no more Know them ****** roll with Lil Reese and them',
-            choices: ['300', 'Gorillaz in a Coup'],
+            name: 'gucciMane',
+            message: 'If a man does not have sauce, then he is lost. But the same man can get lost in the sauce',
+            choices: ['Lost with no sauce', 'Lost in the sauce'],
         }
     ]).then(function (input) {
-        if(input.select === '300') {
+        if(input.select === 'Lost with no sauce') {
             mainPrompt();
         }
         else {
